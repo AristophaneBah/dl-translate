@@ -45,30 +45,29 @@ Future versions may integrate:
 
 ## Project Structure
 
-```text
 dl-translate/
 ├── backend/
-│   ├── app/
-│   │   ├── main.py
-│   │   ├── ocr/
-│   │   ├── parsers/
-│   │   ├── pdf/
-│   │   └── translate/
-│   ├── uploads/
-│   ├── outputs/
-│   └── requirements.txt
-├── frontend/  # (future work)
+│ ├── app/
+│ │ ├── main.py
+│ │ ├── ocr/
+│ │ ├── parsers/
+│ │ ├── pdf/
+│ │ └── translate/
+│ ├── uploads/
+│ ├── outputs/
+│ └── requirements.txt
+├── frontend/ # (future work)
 ├── .gitignore
 ├── README.md
 └── requirements.txt
 
-```md
 ## Run Locally
 
 ```bash
 cd backend
 pip install -r requirements.txt
 uvicorn app.main:app --reload
+
 
 
 

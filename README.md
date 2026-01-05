@@ -41,21 +41,7 @@ Future versions may integrate:
 
 ## Project Structure
 
-dl-translate/
-├── backend/
-│ ├── app/
-│ │ ├── main.py
-│ │ ├── ocr/
-│ │ ├── parsers/
-│ │ ├── pdf/
-│ │ └── translate/
-│ ├── uploads/
-│ ├── outputs/
-│ └── requirements.txt
-├── frontend/ # (future work)
-├── .gitignore
-├── README.md
-└── requirements.txt
+<img width="730" height="1159" alt="image" src="https://github.com/user-attachments/assets/74c131dd-5457-4d7c-b2e3-0b530d6b4b44" />
 
 ## Run Locally
 
@@ -63,3 +49,4 @@ dl-translate/
 cd backend
 pip install -r requirements.txt
 uvicorn app.main:app --reload
+

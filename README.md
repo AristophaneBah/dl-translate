@@ -43,16 +43,16 @@ Future versions may integrate:
 
 dl-translate/
 ├── backend/
-│ ├── app/
-│ │ ├── main.py
-│ │ ├── ocr/
-│ │ ├── parsers/
-│ │ ├── pdf/
-│ │ └── translate/
-│ ├── uploads/
-│ ├── outputs/
-│ └── requirements.txt
-├── frontend/ # (future work)
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── ocr/
+│   │   ├── parsers/
+│   │   ├── pdf/
+│   │   └── translate/
+│   ├── uploads/
+│   ├── outputs/
+│   └── requirements.txt
+├── frontend/  # (future work)
 ├── .gitignore
 ├── README.md
 └── requirements.txt
@@ -63,5 +63,6 @@ dl-translate/
 cd backend
 pip install -r requirements.txt
 uvicorn app.main:app --reload
+
 
 

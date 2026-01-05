@@ -45,7 +45,7 @@ Future versions may integrate:
 
 ## Project Structure
 
-```text
+    ```text
 dl-translate/
 ├── backend/
 │   ├── app/
@@ -62,15 +62,11 @@ dl-translate/
 ├── README.md
 └── requirements.txt
 
+---
+
 ## Run Locally
 
 ```bash
 cd backend
 pip install -r requirements.txt
 uvicorn app.main:app --reload
-
-
-
-
-
-
